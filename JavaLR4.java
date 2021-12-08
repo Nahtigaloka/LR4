@@ -17,7 +17,7 @@ public class JavaLR4 {
     public static void main(String[] args) throws IOException, CsvException {
        List<PersonEntity> list=new LinkedList<>(); 
        
-       String FilePath="E:\\Users\\zhuko\\OneDrive\\doc\\NetBeansProjects\\javaLR4\\src\\javalr4\\foreign_names.csv";
+       String FilePath="Here add file path";
        CSVParser csvParser = new CSVParserBuilder().withSeparator(';').build();
        try(CSVReader reader = new CSVReaderBuilder(new FileReader(FilePath)).withCSVParser(csvParser).withSkipLines(1).build()){
            if (reader == null) {
