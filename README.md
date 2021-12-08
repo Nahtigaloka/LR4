@@ -1,4 +1,4 @@
 # javaLR4
 PersonEntity.java - сущность "Человек" 
 
-Subdivision.java - сущность "Подразделение"
+SubdivisionEntity.java - сущность "Подразделение"
